@@ -1,0 +1,61 @@
+/* font-family: 'Kalam', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://media.designcafe.com/wp-content/uploads/2023/01/31151510/contemporary-interior-design-ideas-for-your-home.jpg);
+    background-size: cover;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 70px;
+    /* flex-wrap: wrap; */
+    font-family: 'Poppins', sans-serif; 
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0 1rem;
+}
+.menu a:nth-child(5){
+    background-color: #6ab04c;
+    border-radius: 8px;
+    padding: 6px;
+}
+.menu i{
+    font-size: 1.2em;
+    padding: 0 0.5rem;
+    /* margin: 0 15px ; */
+    cursor: pointer;
+}
+.menu  a:hover{
+    background-color: #6ab04c;
+    border-radius: 8px;
+    padding: 6px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.left{
+
+}
